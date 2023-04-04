@@ -62,6 +62,47 @@ p{
   margin: 5px;
 }
 
+.ui {
+  display: flex;
+  flex-direction: row;
+}
+
+.ui-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray);
+  background: linear-gradient(90deg, var(--gray) 50%, var(--orange) 130%);
+  padding: 10px;
+  border: solid var(--orange);
+  border-width: 0 2px 2px 0;
+  border-radius: 0 0 60px 0;
+}
+
+.appel {
+  display: flex;
+  justify-items: space-between;
+}
+
+.appel img{
+  width: 30px;
+  margin: 0 30px;
+}
+
+.pfp {
+  width: 40px;
+}
+
+.contact {
+  margin: 0 0 0 10px;
+  padding: 0 10px;
+  flex-grow: 1;
+  border: solid var(--orange) 2px;
+  border-radius: 5px 5px 20px 0;
+  color: #333;
+}
+
 .emoji {
   max-width: 30px;
 }

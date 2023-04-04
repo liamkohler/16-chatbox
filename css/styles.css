@@ -19,11 +19,6 @@ img {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 p{
   margin: 0;
 }
@@ -101,6 +96,45 @@ p{
   border: solid var(--orange) 2px;
   border-radius: 5px 5px 20px 0;
   color: #333;
+}
+
+.ui-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, var(--gray) 50%, var(--orange) 130%);
+  border: solid var(--orange);
+  border-width: 2px 2px 0 0;
+  border-radius: 0 60px 0 0;
+}
+
+.ui-bottom img {
+  width: 25px;
+  margin: 5px;
+}
+
+.zone-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
+  background-color: var(--gray);
+  border: solid var(--orange) 2px;
+  border-radius: 10px 60px 0 10px;
+  margin: 0 12px 0 0;
+}
+
+.bouton-insertion{
+  display: flex;
+  background-color: var(--gray);
+  border: solid var(--orange) 2px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+input {
+  background-color: #d9d9d9;
 }
 
 .emoji {

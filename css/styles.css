@@ -92,12 +92,12 @@ p{
   border-radius: 0 0 60px 0;
 }
 
-.appel {
+.call {
   display: flex;
   justify-items: space-between;
 }
 
-.appel img{
+.call img{
   width: 30px;
   margin: 0 30px;
 }
@@ -158,12 +158,12 @@ input {
   max-width: 30px;
 }
 
-.fin {
+.end {
   text-align: center;
   color: var(--light-gray);
   font-size: 15px;
 }
 
-.photo img{
+.image img{
   border-radius: 5px 5px 20px 0;
 }
